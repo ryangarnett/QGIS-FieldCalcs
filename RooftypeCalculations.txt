@@ -1,0 +1,12 @@
+CASE WHEN Layer = 10 AND Color = 80 THEN 'Flat'
+     WHEN Layer = 10 AND Color = 81 THEN 'Gable'
+     WHEN Layer = 10 AND Color = 24 THEN 'Ridge'
+     WHEN Layer = 10 AND Color = 32 THEN 'Dome'
+     WHEN Layer = 10 AND Color = 36 THEN 'Slope'
+     WHEN Layer = 10 AND Color = 40 THEN 'Curved'
+     WHEN Layer = 10 AND Color = 77 THEN 'Onion Dome'
+     WHEN Layer = 10 AND Color = 78 THEN 'Onion Dome'
+     WHEN Layer = 10 AND Color = 79 THEN 'Onion Dome'
+     WHEN Layer = 10 AND Color = 82 THEN 'Industrial'
+     ELSE 'ERROR'
+END
