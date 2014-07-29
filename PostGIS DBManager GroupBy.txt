@@ -1,0 +1,1 @@
+SELECT bldgid, SUM(height) FROM "Qatar3D".hal_bldg_poly_lod3 GROUP BY bldgid
